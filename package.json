@@ -1,6 +1,6 @@
 {
   "name": "tms-custom-vue-editor",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "The classic editor build for custom purpose based on CKEditor.",
   "keywords": [
     "ckeditor5-build",
