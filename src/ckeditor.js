@@ -29,6 +29,7 @@ import SpecialCharactersCurrency from '@ckeditor/ckeditor5-special-characters/sr
 import SpecialCharactersText from '@ckeditor/ckeditor5-special-characters/src/specialcharacterstext.js';
 import Table from '@ckeditor/ckeditor5-table/src/table.js';
 import TableColumnResize from '@ckeditor/ckeditor5-table/src/tablecolumnresize.js';
+import TableCellProperties from '@ckeditor/ckeditor5-table/src/tablecellproperties';
 import TableProperties from '@ckeditor/ckeditor5-table/src/tableproperties';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar.js';
 import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline.js';
@@ -63,6 +64,7 @@ Editor.builtinPlugins = [
 	SpecialCharactersText,
 	Table,
 	TableColumnResize,
+	TableCellProperties,
 	TableProperties,
 	TableToolbar,
 	Underline
@@ -109,6 +111,7 @@ Editor.defaultConfig = {
 			'tableColumn',
 			'tableRow',
 			'mergeTableCells',
+			'tableCellProperties',
 			'tableProperties'
 		]
 	}
